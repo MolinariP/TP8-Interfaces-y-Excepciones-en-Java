@@ -9,7 +9,7 @@ public class TP8Ejercicio2_3 {
 
     public static void main(String[] args) throws FileNotFoundException {
         try {
-            // String ruta = "C:\\Pablo\\Cursos\\TUP-UTN\\Cuatrimestre II\\Programacion II\\Unidad 8 - Interfaces y Excepciones\\Texto.txt";
+            // String ruta = "C:\\TUP-UTN\\Cuatrimestre II\\Programacion II\\Texto.txt";
             String ruta = "archivo.txt";
             
             Scanner sc = new Scanner(new File(ruta));
@@ -24,3 +24,4 @@ public class TP8Ejercicio2_3 {
         }  
     } 
 }
+
