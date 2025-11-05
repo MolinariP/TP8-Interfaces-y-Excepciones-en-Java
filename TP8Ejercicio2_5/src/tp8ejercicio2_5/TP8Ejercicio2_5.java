@@ -8,8 +8,8 @@ import java.io.IOException;
 public class TP8Ejercicio2_5 {
 
     public static void main(String[] args) {
-            //String ruta = "rutaFalsa.txt";
-            String ruta = "C:\\Pablo\\Cursos\\TUP-UTN\\Cuatrimestre II\\Programacion II\\Unidad 8 - Interfaces y Excepciones\\Archivo.txt"; // ruta real
+            String ruta = "rutaFalsa.txt";
+            //String ruta = "C:\\TUP-UTN\\Cuatrimestre II\\Programacion II\\Archivo.txt"; 
 
         try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
             String linea;
@@ -23,3 +23,4 @@ public class TP8Ejercicio2_5 {
         }
     }
 }
+
